@@ -1,0 +1,68 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.chart-container {
+  padding: 40px;
+  background-color: #e6e6e6;
+  border: 1px solid #cecece;
+  width: auto !important;
+}
+.chart-container .chart-header {
+  justify-content: space-between;
+}
+.chart-container .chart-header div {
+  align-self: center;
+  margin-bottom: 0;
+}
+.chart-container .container,
+.chart-container .chart-header,
+.chart-container .labels > div > div {
+  display: flex;
+  margin: 12px 0;
+}
+.chart-container .add-new-label label {
+  margin: auto 0;
+  margin-right: 16px;
+}
+.chart-container .add-new-label input,
+.chart-container .add-new-label button {
+  align-self: center;
+  height: 28px;
+}
+.chart-container .your-labels {
+  padding: 32px 0;
+}
+.chart-container .your-labels p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.chart-container .your-labels span {
+  display: flex;
+}
+.chart-container .your-labels .section-title {
+  font-size: 0.5em;
+  font-weight: 500;
+}
+.chart-container .your-labels .label-input,
+.chart-container .your-labels .label-color {
+  margin-right: 16px;
+}
+.chart-container .your-labels .label-input div,
+.chart-container .your-labels .label-color div {
+  margin-bottom: 0;
+}
+.chart-container .your-labels .label-button {
+  max-height: 28px;
+}
+.chart-container .your-labels .label-input,
+.chart-container .your-labels .label-button,
+.chart-container .your-labels .label-color {
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=index.css.map*/

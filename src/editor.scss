@@ -1,0 +1,78 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.chart-container {
+	padding: 40px;
+	background-color: #e6e6e6;
+	border: 1px solid #cecece;
+	width: auto !important;
+
+	.chart-header {
+		justify-content: space-between;
+
+		div {
+			align-self: center;
+			margin-bottom: 0;
+		}
+	}
+
+	.container,
+	.chart-header,
+	.labels>div>div {
+		display: flex;
+		margin: 12px 0;
+	}
+
+	.add-new-label {
+		label {
+			margin: auto 0;
+			margin-right: 16px;
+		}
+
+		input,
+		button {
+			align-self: center;
+			height: 28px;
+		}
+	}
+
+	.your-labels {
+		padding: 32px 0;
+
+		p {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		span {
+			display: flex;
+		}
+
+		.section-title {
+			font-size: 0.5em;
+			font-weight: 500;
+		}
+
+		.label-input,
+		.label-color {
+			margin-right: 16px;
+
+			div {
+				margin-bottom: 0;
+			}
+		}
+
+		.label-button {
+			max-height: 28px;
+		}
+
+		.label-input,
+		.label-button,
+		.label-color {
+			align-self: flex-end;
+		}
+	}
+}

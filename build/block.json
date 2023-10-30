@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/charts",
+  "version": "0.1.0",
+  "title": "Charts",
+  "category": "widgets",
+  "icon": "chart-bar",
+  "description": "Creates a custom chart to display data.",
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": "none"
+    },
+    "title": {
+      "type": "string",
+      "default": "My custom chart"
+    },
+    "description": {
+      "type": "string",
+      "default": "Monthly sales"
+    },
+    "type": {
+      "type": "string",
+      "default": "bar"
+    },
+    "labels": {
+      "type": "string",
+      "default": "[]"
+    },
+    "values": {
+      "type": "string",
+      "default": "[]"
+    },
+    "colors": {
+      "type": "string",
+      "default": "[]"
+    }
+  },
+  "example": {
+    "attributes": {
+      "title": "My custom chart",
+      "type": "bar",
+      "labels": "[\"HTML\", \"CSS\", \"JS\", \"PHP\", \"Wordpress\"]"
+    },
+    "values": "[\"5\",\"4\",\"5\",\"4\",\"5\"]",
+    "colors": "[\"#ff6900\", \"#7bdcb5\", \"#0693e3\", \"#345C00\", \"#cf2e2e\"]"
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "charts",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
